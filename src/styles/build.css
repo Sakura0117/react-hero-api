@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2;
+    @apply px-4;
+}
+
+.btn-primary {
+    @apply bg-indigo-900;
+    @apply text-white;
+}
